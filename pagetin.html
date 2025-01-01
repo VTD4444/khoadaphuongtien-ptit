@@ -11,7 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
         crossorigin="anonymous"></script>
-  <title>Khoa Đa Phương Tiện</title>
+  <title>Tin tuc</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -36,7 +36,7 @@
                         <img class="anh_home" src="assets\images\Vector-home.png" alt="...">
                     </div>
                 </a>
-                <p class="hero-mota-content">>Tin tức</p>
+                <p class="hero-mota-content">> Tin tức</p>
             </div>
             <p class="hero-header">Tin tức</p>
         </div>
@@ -47,9 +47,8 @@
             <div class="search-bar__filter-container">
                 <select class="search-bar__select">
                   <option value="" disabled selected>Phân loại theo</option>
-                  <option value="item1">Item 1</option>
-                  <option value="item2">Item 2</option>
-                  <option value="item3">Item 3</option>
+                  <option value="item1">Tin chung</option>
+                  <option value="item2">Sự kiện</option>
                  </select>
               </div>
             <input type="text" class="search-bar__input" placeholder="Nhập thông tin tìm kiếm">
@@ -57,6 +56,15 @@
         </div>
         <div class="page-tintuc">
             <div class="card-grid">
+                <div class="card-grid__card">
+                    <a href="trangtin.html" class="card-grid__link">
+                       <div class="card-grid__image-container" style="background: url('assets/images/image 5.png') lightgray 50% / cover no-repeat;">
+                       </div>
+                       <div class="card-grid__text-container">
+                            <p class="card-grid__text">Sinh viên khoa đa phương tiện giành giải nhất quốc gia cuộc thi vô địch thiết kế đồ họa thế giới ACP 2024</p>
+                       </div>
+                    </a>
+                   </div>
                      <div class="card-grid__card">
                          <a href="#" class="card-grid__link">
                              <div class="card-grid__image-container" style="background: url('assets/images/image 3.png') lightgray 50% / cover no-repeat;">
@@ -83,15 +91,6 @@
                          <div class="card-grid__text-container">
                              <p class="card-grid__text">Sinh viên khoa Đa phương tiện PTIT đạt thành tích cao tại cuộc thi “Tư duy thiết kế khởi nghiệp toàn cầu 2024”</p>
                          </div>
-                     </a>
-                    </div>
-                   <div class="card-grid__card">
-                     <a href="trangtin.html" class="card-grid__link">
-                        <div class="card-grid__image-container" style="background: url('assets/images/image 5.png') lightgray 50% / cover no-repeat;">
-                        </div>
-                        <div class="card-grid__text-container">
-                             <p class="card-grid__text">Sinh viên khoa đa phương tiện giành giải nhất quốc gia cuộc thi vô địch thiết kế đồ họa thế giới ACP 2024</p>
-                        </div>
                      </a>
                     </div>
                    <div class="card-grid__card">
@@ -133,9 +132,9 @@
                          </div>
                       </a>
                     </div>
-                      <div class="card-grid__card" id="special">
+                      <div class="card-grid__card">
                         <a href="#" class="card-grid__link">
-                          <div class="card-grid__image-container" style="background: url('assets/images/image 10.png') lightgray 50% / cover no-repeat;">
+                          <div class="card-grid__image-container" id="special" style="background: url('assets/images/image 10.png') lightgray 50% / cover no-repeat;">
          
                            </div>
                           <div class="card-grid__text-container ">
@@ -148,7 +147,12 @@
     </div>
 </div>
     <div class="contro">
-        <b class="contro-content"><span id="dacbietpagetin">1</span> 2 3 ... 12 </b>
+        <a href="#" class="contro-content"><span>1</span></a>
+        <a href="#" class="contro-content">2</a>
+        <a href="#" class="contro-content">3</a>
+        <a class="contro-content">...</a>
+
+        
     </div>
 
     <footer class="footer">

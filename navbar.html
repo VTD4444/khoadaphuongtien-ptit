@@ -24,8 +24,8 @@
                 <div>
                     <ul class="header-nav-list d-flex justify-content-between p-0 m-0">
                         <li><a class="nav-btn" href="index.html">Trang chủ</a></li>
-                        <li><a class="nav-btn" href="gioithieuchung.html">Giới thiệu</a></li>
-                        <li><a class="nav-btn" href="pagetin.html">Tin tức</a></li>
+                        <li><a id="gioithieu-btn" class="nav-btn" href="gioithieuchung.html">Giới thiệu</a></li>
+                        <li><a id="tintuc-btn" class="nav-btn" href="pagetin.html">Tin tức</a></li>
                         <li class="dropdown">
                             <a id="daotao-btn" class="nav-btn">Đào tạo</a>
                             <ul class="dropdown-menu">
@@ -48,6 +48,8 @@
         const navLinks = document.querySelectorAll('.nav-btn');
         const daotao = document.getElementById('daotao-btn');
         const tuyensinh = document.getElementById('tuyensinh-btn');
+        const gioithieu = document.getElementById('gioithieu-btn');
+        const tintuc = document.getElementById('tintuc-btn');
         const currentPage = window.location.pathname.split('/').pop();
         navLinks.forEach(link => {
             if (link.getAttribute('href') === currentPage) {
@@ -58,6 +60,12 @@
             }
             else if (currentPage === "next-page.html" || currentPage === "next-pagee.html" || currentPage === "precious-page.html" || currentPage === "link1.html" || currentPage === "link2.html" || currentPage === "link3.html" || currentPage === "link4.html") {
                 tuyensinh.classList.add('active');
+            }
+            else if (currentPage === "trangtin.html") {
+                tintuc.classList.add('active');
+            }
+            else if (currentPage === 'lichsu-sumenh.html' || currentPage === 'nhansu.html') {
+                gioithieu.classList.add('active');
             }
             else {
                 link.classList.remove('active');
