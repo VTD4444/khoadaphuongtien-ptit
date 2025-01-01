@@ -384,13 +384,10 @@ body {
 
 .containline {
     margin-top: 42px;
-
 }
 
 .containline_TC {
-    margin-top: 42px;
     padding-top: 20px;
-
 }
 
 .bangchuthich {
@@ -436,6 +433,7 @@ body {
     align-items: center;
     margin-left: 17px;
     padding-top: 15px;
+    box-sizing: content-box;
 }
 
 .contain_ct .bangtrai .line_ct div:nth-child(2) {
@@ -498,9 +496,8 @@ body {
 }
 
 .maudoc {
-    height: 160px;
     width: 390px;
-    padding-top: 15px;
+    padding: 15px 0;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
@@ -524,6 +521,9 @@ body {
 }
 
 .montuchon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-items: center;
 }
 
@@ -546,12 +546,19 @@ body {
     font-size: 25px;
     font-weight: 700;
     padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .cdr {
     background: #F5F5F5;
     height: 1580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-items: center;
+    padding-bottom: 40px;
 }
 
 .cdr_title {
@@ -566,9 +573,9 @@ body {
 
 .ctn_cdr {
     width: 1250px;
-    height: 1430px;
     background-color: white;
     border-radius: 10px;
+    padding-bottom: 20px;
 }
 
 .text_cdr1 {

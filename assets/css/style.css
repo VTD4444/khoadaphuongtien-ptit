@@ -164,7 +164,6 @@ body {
     font-family: Manrope;
     font-style: normal;
     font-weight: 400;
-    width: 1440px;
     line-height: normal;
   }
   
@@ -209,8 +208,7 @@ body {
       padding: 90px 102px;
       box-sizing: border-box;
       align-items: flex-start;
-      column-gap: 105px;
-      width: 1440px;
+      column-gap: 17vw;
         color: #000;
         font-style: normal;
         font-weight: 400;
@@ -222,7 +220,7 @@ body {
       position: sticky;
       top: 10px;
       width: 290px;
-      transition: top 0.3s; /* Mượt mà khi thay đổi vị trí */
+      transition: top 0.3s;
       padding: 26px 8px;
       flex-direction: column;
       align-items: flex-start;
@@ -252,7 +250,7 @@ body {
 
   .info-section{
     font-size: 16px;
-    width: 1000px;
+    width: 50vw;
 
   }
 /* only in nhan su */
@@ -337,7 +335,7 @@ body {
    }
   /*Only in nhan_su.html*/
   .staff-table {
-      width: 1000px;
+      width: 50vw;
       border: 1px solid black;
       border-collapse: collapse;
   }
@@ -355,7 +353,7 @@ body {
     padding: 26px 8px;
     flex-direction: column;
     align-items: flex-start;
-    width: 840px;
+    width: 50vw;
     padding-top: 0px;
     gap: 20px;
     flex-shrink: 0;
