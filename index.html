@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.7.0.js"
+        integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <title>Khoa đa phương tiện</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/client-style.css">
+    <link rel="shortcut icon" type="image/png" href="assets/images/m1logo.png"/>
+</head>
+<script>
+    $(function () {
+        $("#header").load("navbar.html");
+    });
+</script>
+<body>
+    <div id="header"></div>
+    <div id="carouselExampleIndicators" class="carousel slide mb-4" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./assets/images/467520867_1114339993728940_8946698187995287004_n.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/images/467256154_1113199673842972_9092269867374047061_n.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/images/465844825_1111404767355796_4433879917817591020_n.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/images/469188790_1123090839520522_1911090826641442900_n.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/images/469738234_1126151615881111_2582285224062492888_n.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="container">
+        <div class="home-introduce row d-flex justify-content-between line-bottom">
+            <div class="col-md-6">
+                <div class="mb-3"></div>
+                <h2>HỌC VIỆN CÔNG NGHỆ BƯU CHÍNH VIỄN THÔNG</h2>
+                <h1>KHOA ĐA PHƯƠNG TIỆN</h1>
+                <p><b>Ngày 16/3/2016,</b> Giám đốc Học viện đã ký Quyết định số 265/QĐ-HV về việc thành lập và quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Khoa Đa phương tiện; hướng đến xây dựng khoa Đa phương tiện trở thành khoa đào tạo thế mạnh của Học viện, áp dụng những phương pháp đào tạo tiên tiến, đồng thời thu hút những cán bộ giảng dạy được đào tạo bài bản, có trình độ chuyên môn cao về tham gia nghiên cứu, giảng dạy tại Học viện; từ đó đào tạo được đội ngũ sinh viên có chất lượng chuyên sâu về công nghệ, ứng dụng công nghệ đa phương tiện cho xã hội.</p>
+                <br>
+                <a class="btn-xemthem" href="gioithieuchung.html">XEM THÊM <img src="./assets/images/Vector 10.svg"></a>
+            </div>
+            <div class="col-md-5">
+                <img src="./assets/images/avatar.jpg">
+            </div>
+        </div>
+        <div class="daotao row d-flex justify-content-center line-bottom">
+            <p class="home-container-title">Đào tạo</p>
+            <p class="daotao-content">Khoa Đa phương tiện sẽ thực hiện chức năng đào tạo các chuyên ngành Công nghệ Đa phương tiện, Truyền thông Đa phương tiện và Báo Chí theo mục tiêu, chương trình, nội dung, phương pháp đào tạo do Giám đốc Học viện phê duyệt.</p>
+            <div class="row g-0">
+                <a class="col-6" href="https://daotao.ptit.edu.vn/chuong-trinh-dao-tao/nganh-cong-nghe-da-phuong-tien/"><img src="./assets/images/Group 98.png"></a>
+                <div class="col-6">
+                    <a href="https://daotao.ptit.edu.vn/chuong-trinh-dao-tao/nganh-truyen-thong-da-phuong-tien/"><img src="./assets/images/Group 99.png"></a>
+                    <a href="https://daotao.ptit.edu.vn/chuong-trinh-dao-tao/nganh-bao-chi-journalism/"><img src="./assets/images/Group 100.png"></a>
+                </div>
+            </div>
+        </div>
+        <div class="tuyensinh line-bottom">
+            <p class="home-container-title">Tuyển sinh</p>
+            <div class="row g-5">
+                <img class="col-md-6" src="./assets/images/tuyensinh.jpg">
+                <div class="col-md-6">
+                    <b>Đồng hành cùng khoa Đa phương tiện</b><br><br>
+                    <p>Bạn đam mê sáng tạo và công nghệ? Hãy gia nhập khoa Đa phương tiện với các ngành Báo chí, Truyền thông đa phương tiện, và Công nghệ đa phương tiện. Chương trình đào tạo hiện đại, cơ hội việc làm rộng mở và mức lương hấp dẫn đang chờ đón bạn!</p>
+                    <br><b> Hãy bắt đầu hành trình tương lai ngay hôm nay!</b><br><br><br>
+                    <a class="btn-xemthem" href="tuyensinh.html">XEM THÊM <img src="./assets/images/Vector 10.svg"></a>
+                </div>
+            </div>
+        </div>
+        <div class="line-bottom">
+            <p class="home-container-title">Sự kiện mới nhất</p>
+            <div class="row">
+                <a class="col-md-3 baiviet-container" href="https://www.facebook.com/khoadaphuongtienptit/videos/561175480110223">
+                    <div class="baiviet">
+                        <img src="./assets/images/talkshowbiquyetchinhphuca+.png">
+                        <p>Talkshow bí quyết chinh phục A+ khóa luận tốt nghiệp</p>
+                    </div>
+                </a>
+                <a class="col-md-3 baiviet-container" href="https://www.facebook.com/photo.php?fbid=1119961939833412&set=pb.100054588484159.-2207520000&type=3">
+                    <div class="baiviet">
+                        <img src="./assets/images/zpublic.png">
+                        <p>Tọa đàm GEN “ZPUBLIC”: Hồ sơ đỉnh chóp, chẳng lo về job</p>
+                    </div>
+                </a>
+                <a class="col-md-3 baiviet-container" href="https://www.facebook.com/khoadaphuongtienptit/videos/1688793438358157">
+                    <div class="baiviet">
+                        <img src="./assets/images/truyenthongbansaccanhan.png">
+                        <p>Talkshow “Truyền thông bản sắc cá nhân”</p>
+                    </div>
+                </a>
+                <a class="col-md-3 baiviet-container" href="https://laodong.vn/giao-duc/quan-quan-cuoc-thi-cong-nghe-voi-phat-trien-ben-vung-1422101.ldo">
+                    <div class="baiviet">
+                        <img src="./assets/images/opendes2024.png">
+                        <p>Chung kết cuộc thi “Công nghệ với phát triển bền vững” - Opendes 2024 </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="line-bottom">
+            <p class="home-container-title">Thành tựu</p>
+            <div class="row">
+                <a class="col-md-3 baiviet-container" href="https://www.facebook.com/khoadaphuongtienptit/posts/pfbid02CiZ5X5RqQu8DDpJpKatTB4DPzPqduGRydxbf5pHuKngfLui2ghNcvPkWjjF5DaqGl">
+                    <div class="baiviet">
+                        <img src="./assets/images/khoinghieptoancau2024.png">
+                        <p>Sinh viên khoa Đa phương tiện đạt giải Bạc tại cuộc thi “Khởi nghiệp toàn cầu 2024”</p>
+                    </div>
+                </a>
+                <a class="col-md-3 baiviet-container" href="https://vietnamnet.vn/sinh-vien-ptit-gianh-suat-sang-my-thi-thiet-ke-do-hoa-the-gioi-2024-2287023.html?zarsrc=30&utm_source=zalo&utm_medium=zalo&utm_campaign=zalo&fbclid=IwY2xjawHfz9pleHRuA2FlbQIxMAABHZy23ukz-tkelzJGQob5J2IUkvcmPs3sk9V29OSckRf8I8GRV4JUqBVHnw_aem_AEtSfkxFNoRodM0HWBy2UA">
+                    <div class="baiviet">
+                        <img src="./assets/images/acp2024.png">
+                        <p>Sinh viên khoa Đa phương tiện giành giải Nhất vòng Chung kết quốc gia cuộc thi vô địch thiết kế đồ họa thế giới ACP 2024</p>
+                    </div>
+                </a>
+                <a class="col-md-3 baiviet-container" href="https://www.facebook.com/khoadaphuongtienptit/posts/pfbid02JB3XTB1bzBnJfCRRuHMfFk9mSit3aJwTKQghXSHtR5npvXYVy2VtVBKaUNjThuK8l">
+                    <div class="baiviet">
+                        <img src="./assets/images/tuduythietke.png">
+                        <p>Sinh viên khoa Đa phương tiện đạt thành tích cao tại cuộc thi “Tư duy thiết kế khởi nghiệp toàn cầu 2024”</p>
+                    </div>
+                </a>
+                <a class="col-md-3 baiviet-container" href="https://tainangviet.vn/dai-su-aca-viet-nam-tham-du-vong-chung-ket-the-gioi-cuoc-thi-vo-dich-thiet-ke-do-hoa-the-gioi-nam-2019-dar3042/?fbclid=IwY2xjawHf0EBleHRuA2FlbQIxMAABHZMW_kKRyo3dlCEVG3uAd2xxPU3LbC3obFWpaRLJagV2TZPpBrXMgSeJtw_aem_dV5P4FKHyGPIrS0JEg09uA">
+                    <div class="baiviet">
+                        <img src="./assets/images/acaw2019.png">
+                        <p>Sinh viên khoa Đa phương tiện thắng lớn tại cuộc thi vô địch thiết kế đồ họa thế giới - Adobe World Championship (ACAWC 2019)</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div>
+            <p class="home-container-title">Một số sản phẩm của sinh viên khoa</p>
+            <div class="row">
+                <a class="col-md-3 baiviet-container" href="https://www.facebook.com/khoadaphuongtienptit/videos/558168767160856">
+                    <div class="baiviet">
+                        <img src="./assets/images/korosaka.png">
+                        <p>Dự án: Game Korosaka - Giải nhất cuộc thi “Công nghệ với phát triển bền vững” - Opendes 2024</p>
+                    </div>
+                </a>
+                <a class="col-md-3 baiviet-container" href="https://www.facebook.com/61552195568425/videos/724234679127222">
+                    <div class="baiviet">
+                        <img src="./assets/images/shipperquanhhanoi.png">
+                        <p>Dự án game “ShipperQuanhHaNoi” - Giải nhất cuộc thi “Bước Di Sản 2023”</p>
+                    </div>
+                </a>
+                <a class="col-md-3 baiviet-container" href="https://www.facebook.com/khoadaphuongtienptit/videos/2553174038195004">
+                    <div class="baiviet">
+                        <img src="./assets/images/nointernet.png">
+                        <p>Sản phẩm bài tập Kinetic Typography thuộc môn “Nghệ thuật đồ họa chữ” của các bạn sinh viên Thiết kế đa phương điện</p>
+                    </div>
+                </a>
+                <a class="col-md-3 baiviet-container" href="https://www.facebook.com/khoadaphuongtienptit/videos/1626281281197555">
+                    <div class="baiviet">
+                        <img src="./assets/images/whatisyourcolor.png">
+                        <p>Một sản phẩm bài tập cuối kỳ môn Nhập môn Đa phương tiện của sinh viên D22 - Ngành Công nghệ đa phương tiện</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <footer class="footer mt-5">
+        <div class="footer-content container pt-4">
+            <div class="d-flex justify-content-between">
+                <a href="index.html"><img src="./assets/images/logo(blackwhite).png"></a>
+                <div class="footer-title text-start my-auto">
+                    <h1>HỌC VIỆN CÔNG NGHỆ BƯU CHÍNH VIỄN THÔNG</h1>
+                    <h1>KHOA ĐA PHƯƠNG TIỆN</h1>
+                </div>
+                <div class="footer-social-network my-auto">
+                    <a href="https://www.facebook.com/khoadaphuongtienptit"><img src="./assets/images/fb-logo 1.png"></a>
+                    <a href="https://www.youtube.com/@khoaaphuongtienptit4098"><img src="./assets/images/ytb-logo 1.png"></a>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4 text-start">
+                    <span>Số điện thoại liên hệ</span>
+                    <p>024 3352 5742</p><br>
+                    <span>Email</span>
+                    <p>bantruyenthong@gmail.com</p>
+                </div>
+                <div class="col-md-4 text-start">
+                    <span>Văn phòng khoa</span>
+                    <p>Tầng 1 - Nhà A1 - Học viện Công nghệ BCVT</p><br>
+                    <span>Địa chỉ</span>
+                    <p>Km10, Đường Nguyễn Trãi, Q. Hà Đông, Hà Nội</p>
+                </div>
+                <div class="col-md-4 d-flex flex-column justify-content-between text-start">
+                    <a href="https://giaovu.ptit.edu.vn/">Giáo vụ</a>
+                    <a href="https://ptit.edu.vn/sau-dai-hoc">Sau đại học</a>
+                    <a href="http://dlib.ptit.edu.vn/">Thư viện số</a>
+                    <a href="https://qldt.ptit.edu.vn/">Quản lý đào tạo</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

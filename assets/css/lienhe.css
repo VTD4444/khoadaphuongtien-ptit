@@ -1,0 +1,116 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    text-align: left;
+    padding: 10px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;  /* Để logo-text và nav nằm theo chiều dọc */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    width: 100px;
+    height: auto;
+}
+
+.logo-text h1 {
+    font-size: 18px;
+    margin-left: 20px;
+    color: #216ca6;
+    margin-bottom: 0; /* Giảm khoảng cách dưới h1 */
+}
+
+.logo-text h2 {
+    font-size: 16px;
+    margin-left: 20px;
+    color: #f7b448;
+    margin-top: 0; /* Giảm khoảng cách trên h2 */
+}
+
+nav {
+    margin-top: 0; /* Giảm khoảng cách giữa logo-text và nav */
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 0;
+    margin-left: 120px;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #333;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+main {
+    padding: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    background-color: #EBE0D1;
+    font-weight: normal;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px; /* Tăng khoảng cách giữa các ô */
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto; /* Căn giữa các ô */
+    padding: 0 50px; /* Tăng padding để các ô rộng hơn */
+    font-weight: normal;
+}
+
+.info-item {
+    background-color: #F7941D;
+    color: white;
+    padding: 30px; /* Tăng padding để các ô lớn hơn */
+    border-radius: 12px;
+    font-size: 16px; /* Tăng kích thước font */
+    box-sizing: border-box;
+    font-weight: normal;
+}
+
+.info-item h3 {
+    margin-top: 0;
+    font-size: 16px;
+}
+
+.info-item a {
+    color: #fff;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.info-item p {
+    font-weight: 300; /* Làm mỏng chữ trong nội dung */
+}
+
+.info-item a:hover {
+    text-decoration: none;
+}
+.contact-link {
+    text-decoration: underline;
+}

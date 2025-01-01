@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", serif;
+}
+p {
+    font-size: 20px;
+    font-weight: 400;
+}
+b {
+    font-size: 24px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.header {
+    height: 120px;
+    border-bottom: 2px solid #F7941D;
+}
+.header img {
+    height: 100px;
+}
+.header-nav {
+    margin-left: 100px;
+}
+.header-title{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.header-title>p {
+    color: #29577D;
+}
+.header-title :last-child {
+    color: #F7941D;
+}
+.header ul {
+    display: flex;
+    width: 500px;
+}
+.header ul li {
+    list-style: none;
+    justify-content: space-between;
+}
+.header ul li a {
+    font-size: 17px;
+    padding-bottom: 4px;
+    position: relative;
+}
+.header ul li a:hover {
+    color: black;
+}
+.header ul li a::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0;
+    height: 1px;
+    background-color: #29577D;
+    transition: width 0.3s ease, left 0.3s ease;
+}
+.header ul li a:hover::after {
+    width: 100%;
+    left: 0;
+}
+.header-search-input {
+    height: 100px;
+}
+.header-search-input input {
+    width: 247px;
+    height: 34px;
+    border-radius: 100px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    background-image: url('../images/Group\ 97.png');
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: 107px 19px;
+}
+.header-search-input input:focus {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    background-image: none;
+}
+.carousel-inner img {
+    height: 500px;
+    object-fit: cover;
+}
+.carousel-control-prev,
+.carousel-control-next {
+    width: 100px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.carousel-item {
+    transition: transform 0.5s ease-in-out;
+}
+.line-bottom {
+    padding-bottom: 40px;
+    border-bottom: 1px solid #F7941D;
+}
+.home-introduce>div>div{
+    width: 70px;
+    border-top: 2px solid #F7941D;
+}
+.home-introduce h2 {
+    color: #29577D;
+    font-size: 25px;
+    font-weight: 700;
+}
+.home-introduce h1 {
+    color: #F7941D;
+    font-size: 50px;
+    font-weight: 700;
+}
+.btn-xemthem {
+    border-radius: 100px;
+    background: linear-gradient(90deg, #FF9800 0%, #FFC107 100%);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 20px;
+    transition: background-position 0.3s ease;
+    background-size: 200% 100%;
+    background-position: 0% 0%;
+}
+.btn-xemthem:hover {
+    color: #FFF;
+    background-position: 100% 0%;
+}
+.home-introduce .col-md-5 img {
+    width: 92%;
+    border-radius: 5px;
+}
+.home-container-title {
+    color: #29577D;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 15px;
+}
+.daotao-content {
+    width: 693px;
+    text-align: center;
+}
+.daotao img {
+    width: 100%;
+    border-radius: 5px;
+    transition: transform 0.2s ease-in-out;
+}
+.daotao img:hover {
+    transform: scale(1.02);
+}
+.baiviet-container img{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+.baiviet p{
+    font-size: 16px;
+}
+.baiviet img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+.footer {
+    height: 364px;
+    position: relative;
+    color: #fff;
+    text-align: center;
+}
+.footer-content {
+    position: relative;
+    z-index: 2;
+}
+.footer-content>.d-flex {
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+.footer-content img {
+    height: 100px;
+}
+.footer-title {
+    width: 700px;
+}
+.footer-content h1 {
+    font-size: 24px;
+    font-weight: 400;
+}
+.footer-social-network img{
+    height: 46px;
+    margin-left: 40px;
+}
+.footer-content .row p,
+.footer-content .row span {
+    font-size: 17px;
+}
+.footer-content .row span {
+    opacity: 0.7;
+}
+.footer-content .row a {
+    color: white;
+    font-size: 17px;
+    margin-left: 150px;
+}
+.footer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #F7941D, #29577D, #F7941D);
+    background-size: 300% 300%;
+    animation: gradient-animation 10s infinite;
+    z-index: 1;
+}
+
+@keyframes gradient-animation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}  
