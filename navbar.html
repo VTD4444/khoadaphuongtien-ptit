@@ -23,7 +23,7 @@
                 </div>
                 <div>
                     <ul class="header-nav-list d-flex justify-content-between p-0 m-0">
-                        <li><a class="nav-btn" href="index.html">Trang chủ</a></li>
+                        <li><a id="trangchu-btn" class="nav-btn" href="index.html">Trang chủ</a></li>
                         <li><a id="gioithieu-btn" class="nav-btn" href="gioithieuchung.html">Giới thiệu</a></li>
                         <li><a id="tintuc-btn" class="nav-btn" href="pagetin.html">Tin tức</a></li>
                         <li class="dropdown">
@@ -50,6 +50,7 @@
         const tuyensinh = document.getElementById('tuyensinh-btn');
         const gioithieu = document.getElementById('gioithieu-btn');
         const tintuc = document.getElementById('tintuc-btn');
+        const trangchu = document.getElementById('trangchu-btn');
         const currentPage = window.location.pathname.split('/').pop();
         navLinks.forEach(link => {
             if (link.getAttribute('href') === currentPage) {
@@ -64,8 +65,11 @@
             else if (currentPage === "trangtin.html") {
                 tintuc.classList.add('active');
             }
-            else if (currentPage === 'lichsu-sumenh.html' || currentPage === 'nhansu.html') {
+            else if (currentPage === "lichsu-sumenh.html" || currentPage === "nhansu.html") {
                 gioithieu.classList.add('active');
+            }
+            else if (currentPage === "") {
+                trangchu.classList.add('active');
             }
             else {
                 link.classList.remove('active');
