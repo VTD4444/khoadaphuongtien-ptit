@@ -384,6 +384,10 @@ body {
           line-height: normal;
           letter-spacing: 1.6px;
    }
+   .timeline-container{
+        padding-top: 20px;
+        margin-top: 50px;
+   }
    .timeline__title{
     width: 172px;
       color: var(--mu-xanh, #29577D);
