@@ -3,31 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.7.0.js"
+        integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
     <title>Khoa Đa Phương Tiện</title>
-    <link rel="stylesheet" href="lienhe.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/lienhe.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="assets/images/m1logo.png"/>
 </head>
+<script>
+    $(function () {
+        $("#header").load("navbar.html");
+    });
+</script>
 <body>
-    <header>
-        <div class="logo">
-            <img src="images/tai xuong.jpeg" alt="Logo" class="logo-image">
-            <div class="logo-text">
-                <h1>HỌC VIỆN CÔNG NGHỆ BƯU CHÍNH VIỄN THÔNG</h1>
-                <h2>KHOA ĐA PHƯƠNG TIỆN</h2>
-            </div>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#">Trang chủ</a></li>
-                <li><a href="#">Giới thiệu</a></li>
-                <li><a href="#">Tin tức</a></li>
-                <li><a href="#">Đào tạo</a></li>
-                <li><a href="tuyensinh.html">Tuyển sinh</a></li>
-                <a href="lienhe.html" class="contact-link">Liên hệ</a>
-            </ul>
-        </nav>
-    </header>
+    <div id="header"></div>
     <main>
         <div class="info-grid">
             <div class="info-item">
@@ -82,5 +80,40 @@
         </div>
         
     </main>
+    <footer class="footer">
+        <div class="footer-content container pt-4">
+            <div class="d-flex justify-content-between">
+                <a href="index.html"><img src="./assets/images/logo(blackwhite).png"></a>
+                <div class="footer-title text-start my-auto">
+                    <h1>HỌC VIỆN CÔNG NGHỆ BƯU CHÍNH VIỄN THÔNG</h1>
+                    <h1>KHOA ĐA PHƯƠNG TIỆN</h1>
+                </div>
+                <div class="footer-social-network my-auto">
+                    <a href="https://www.facebook.com/khoadaphuongtienptit"><img src="./assets/images/fb-logo 1.png"></a>
+                    <a href="https://www.youtube.com/@khoaaphuongtienptit4098"><img src="./assets/images/ytb-logo 1.png"></a>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4 text-start">
+                    <span>Số điện thoại liên hệ</span>
+                    <p>024 3352 5742</p><br>
+                    <span>Email</span>
+                    <p>bantruyenthong@gmail.com</p>
+                </div>
+                <div class="col-md-4 text-start">
+                    <span>Văn phòng khoa</span>
+                    <p>Tầng 1 - Nhà A1 - Học viện Công nghệ BCVT</p><br>
+                    <span>Địa chỉ</span>
+                    <p>Km10, Đường Nguyễn Trãi, Q. Hà Đông, Hà Nội</p>
+                </div>
+                <div class="col-md-4 d-flex flex-column justify-content-between text-start">
+                    <a href="https://giaovu.ptit.edu.vn/">Giáo vụ</a>
+                    <a href="https://ptit.edu.vn/sau-dai-hoc">Sau đại học</a>
+                    <a href="http://dlib.ptit.edu.vn/">Thư viện số</a>
+                    <a href="https://qldt.ptit.edu.vn/">Quản lý đào tạo</a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
