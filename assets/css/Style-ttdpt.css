@@ -553,7 +553,7 @@ body {
 
 .cdr {
     background: #F5F5F5;
-    height: 1580px;
+    height: 1630px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -575,7 +575,7 @@ body {
     width: 1250px;
     background-color: white;
     border-radius: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 .text_cdr1 {
@@ -676,7 +676,7 @@ body {
     text-align: justify;
     align-content: center;
     font-size: 16px;
-    font-weight: 500;
+
     line-height: 24px;
     color: #333;
 }
@@ -708,7 +708,6 @@ body {
     text-align: justify;
     align-content: center;
     font-size: 16px;
-    font-weight: 500;
     line-height: 24px;
     color: #333;
 }

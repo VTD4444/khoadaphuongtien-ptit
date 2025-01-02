@@ -555,7 +555,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-items: center;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 }
 
 .cdr_title {
@@ -569,9 +569,10 @@ body {
 }
 
 .ctn_cdr {
-    width: 1250px;
+    width: 1280px;
     background-color: white;
     border-radius: 10px;
+    padding-bottom: 30px;
 }
 
 .text_cdr1 {
@@ -629,6 +630,7 @@ body {
 .ct_box {
     display: flex;
     justify-content: center;
+
 }
 
 .line_box {
@@ -672,7 +674,6 @@ body {
     text-align: justify;
     align-content: center;
     font-size: 16px;
-    font-weight: 500;
     line-height: 24px;
     color: #333;
 }
@@ -704,7 +705,6 @@ body {
     text-align: justify;
     align-content: center;
     font-size: 16px;
-    font-weight: 500;
     line-height: 24px;
     color: #333;
 }
