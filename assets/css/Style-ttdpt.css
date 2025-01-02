@@ -197,7 +197,7 @@ body {
 .card_nn .card_nn_title span {
     flex: 0.9;
     text-align: center;
-    line-height: 24px;
+    line-height: 1.15;
 }
 
 .Nghenghiep .flex .Containernn {
