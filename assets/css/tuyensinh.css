@@ -259,6 +259,15 @@ main {
     border-radius: 16px;
     margin-top: 20px;
   }
+  .diem-chuan {
+    text-align: center;
+    background-color: #f8c1b7;
+    padding: 15px;
+    border-radius: 10px 10px 0 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #080808;
+  }
 
   
   table {
