@@ -24,7 +24,14 @@
                 <div>
                     <ul class="header-nav-list d-flex justify-content-between p-0 m-0">
                         <li><a id="trangchu-btn" class="nav-btn" href="index.html">Trang chủ</a></li>
-                        <li><a id="gioithieu-btn" class="nav-btn" href="gioithieuchung.html">Giới thiệu</a></li>
+                        <li class="dropdown">
+                            <a id="gioithieu-btn" class="nav-btn">Giới thiệu</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="gioithieuchung.html">Tổng quan</a></li>
+                                <li><a href="lichsu-sumenh.html">Lịch sử - sứ mệnh</a></li>
+                                <li><a href="nhansu.html">Nhân sự khoa</a></li>
+                            </ul>
+                        </li>
                         <li><a id="tintuc-btn" class="nav-btn" href="pagetin.html">Tin tức</a></li>
                         <li class="dropdown">
                             <a id="daotao-btn" class="nav-btn">Đào tạo</a>
@@ -65,7 +72,7 @@
             else if (currentPage === "trangtin.html") {
                 tintuc.classList.add('active');
             }
-            else if (currentPage === "lichsu-sumenh.html" || currentPage === "nhansu.html") {
+            else if (currentPage === "lichsu-sumenh.html" || currentPage === "nhansu.html" || currentPage === "gioithieuchung.html") {
                 gioithieu.classList.add('active');
             }
             else if (currentPage === "") {
