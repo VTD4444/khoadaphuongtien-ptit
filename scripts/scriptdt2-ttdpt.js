@@ -383,17 +383,15 @@ function capnhatmonhoc(kyhoc) {
 const menuIcon = document.getElementById('menuIcon');
 const popupMenu = document.getElementById('popupMenu');
 
-// Hiển thị hoặc ẩn popup menu
 menuIcon.addEventListener('click', () => {
     const isVisible = popupMenu.style.display === 'block';
     popupMenu.style.display = isVisible ? 'none' : 'block';
 });
 
-// Điều hướng đến phần được chọn
 function navigateToSection(sectionId) {
     const section = document.getElementById(sectionId);
     section.scrollIntoView({
         behavior: 'smooth'
     });
-    popupMenu.style.display = 'none'; // Đóng menu sau khi chọn
+    popupMenu.style.display = 'none'; 
 }
