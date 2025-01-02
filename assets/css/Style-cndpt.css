@@ -213,7 +213,7 @@ body {
 
 .ctdt {
     background: #F0F8FF;
-    height: 2300px;
+    padding-bottom: 30px;
 }
 
 .ctdt .title {
@@ -237,7 +237,7 @@ body {
     justify-content: space-between;
 }
 
-.btn {
+.dt-btn {
     width: 254px;
     height: 50px;
     border: none;
@@ -250,7 +250,7 @@ body {
     cursor: pointer;
 }
 
-.btn.active {
+.dt-btn.active {
     background: #FF9800;
 }
 
@@ -392,8 +392,7 @@ body {
 .bangchuthich {
     display: flex;
     justify-content: center;
-    margin-top: 34px;
-    height: 377px;
+    margin-top: 50px;
 }
 
 .contain_ct .bangtrai {
@@ -515,8 +514,6 @@ body {
     font-weight: 700;
     margin-top: 30px;
     margin-bottom: 20px;
-
-
 }
 
 .montuchon {
@@ -576,22 +573,20 @@ body {
     display: flex;
     padding-left: 40px;
     margin-top: 20px;
+    padding-bottom: 30px;
     gap: 20px;
     box-sizing: border-box;
 }
 
 .contain_mtc_2 .bangtrai_mtc {
     width: 575px;
-    height: 500px;
     border-radius: 10px;
-    padding-top: 40px;
     background: #FFF;
     box-sizing: border-box;
 }
 
 .contain_mtc_2 .bangphai_mtc {
     width: 575px;
-    height: 500px;
     border-radius: 10px;
     background: #FFF;
 }
@@ -600,7 +595,7 @@ body {
     display: flex;
     gap: 30px;
     padding-left: 22px;
-    margin-top: 15px;
+    margin: 15px 0 30px;
 }
 
 .cdr {
